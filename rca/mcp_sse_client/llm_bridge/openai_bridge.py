@@ -25,7 +25,7 @@ class OpenAIBridge(LLMBridge):
 
         self.llm_client = openai.OpenAI(
             base_url="https://xiaoai.plus/v1",
-            api_key="sk-2KhVCraHvPgGJMa9q84T6qdV3v40dFy4NcpACBEhpagza34D"  # 随便填，Ollama 不校验
+            api_key=""  # 随便填，Ollama 不校验
         )
         self.model = "gpt-3.5-turbo"
 
