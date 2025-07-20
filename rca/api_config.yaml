@@ -1,0 +1,4 @@
+SOURCE:   "OpenAI"
+MODEL:    "gpt-3.5-turbo"
+API_KEY:  ""
+API_BASE: "https://xiaoai.plus/v1"
